@@ -1,13 +1,9 @@
+import AppRouter from "./Router/AppRouter";
+
 function App() {
   return (
     <>
-      <h1
-        style={{
-          textAlign: "center",
-        }}
-      >
-        Hello World
-      </h1>
+      <AppRouter />
     </>
   );
 }
